@@ -11,8 +11,9 @@ const annoucement = document.createElement("pl-announcement") as any;
 
 annoucement.title = config.title;
 annoucement.description = config.description;
+
 annoucement.primaryBtnText = config.primaryBtnText;
-annoucement.secondaryBtnText = config.secondaryBtnText;
+annoucement.secondaryBtnText = config.secondaryBtnText;   
 
 annoucement.addEventListener("primary-btn-click", () => {
     alert("Primary Button Clicked");
